@@ -1,0 +1,25 @@
+Package: sarp.2021.herla.snowprofilevalidation
+Title: SARP package for snow model validation project
+Version: 0.1.1
+Author: Florian Herla
+Maintainer: Florian Herla <fherla@sfu.ca>
+Description: This package contains the code used for the 
+    snow model validation project focusing on critical layers. 
+    Part of Florian's PhD thesis, project 3.
+    LIGHT version specifically for paper submission---only 
+    contains files required for paper.
+License: GPL (>=3)
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.2.2
+Roxygen: list(markdown = TRUE)
+Language: en-US
+Depends:
+  R (>= 4.2),
+  sarp.snowprofile
+Suggests:
+  SarpGeneral,
+  SarpBulletinTools,
+  sarp.internal.snowpack,
+  sarp.snowprofile.alignment,
+  sarp.snowprofile.pyface
